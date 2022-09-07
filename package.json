@@ -5,7 +5,7 @@
     "repository": {
         "url": "https://github.com/iacoware/react-playground"
     },
-    "main": "src/index.js",
+    "source": "src/index.html",
     "scripts": {
         "clean": "rimraf dist .cache node_modules/.cache/",
         "start": "npm run clean && parcel index.html --no-autoinstall --open",
@@ -17,20 +17,21 @@
     "author": "",
     "license": "ISC",
     "dependencies": {
-        "react": "18.1.0",
-        "react-dom": "18.1.0",
+        "react": "18.2.0",
+        "react-dom": "18.2.0",
         "rimraf": "3.0.2"
     },
     "devDependencies": {
-        "@types/react": "18.0.9",
-        "@types/react-dom": "18.0.4",
-        "@typescript-eslint/eslint-plugin": "5.25.0",
-        "eslint": "8.16.0",
+        "@types/react": "18.0.18",
+        "@types/react-dom": "18.0.6",
+        "@typescript-eslint/eslint-plugin": "5.36.2",
+        "eslint": "8.23.0",
         "eslint-config-prettier": "8.5.0",
-        "eslint-plugin-prettier": "4.0.0",
-        "eslint-plugin-react": "7.30.0",
-        "parcel": "2.5.0",
-        "prettier": "2.6.2",
-        "typescript": "4.6.4"
+        "eslint-plugin-prettier": "4.2.1",
+        "eslint-plugin-react": "7.31.7",
+        "parcel": "2.7.0",
+        "prettier": "2.7.1",
+        "process": "^0.11.10",
+        "typescript": "4.8.2"
     }
 }
